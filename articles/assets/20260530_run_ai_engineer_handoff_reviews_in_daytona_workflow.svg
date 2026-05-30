@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">AI engineer handoff review workflow in Daytona</title>
+  <desc id="desc">A four step workflow showing Daytona creating reproducible workspaces for Omni Engineer, Claude Engineer, review notes, and one final patch.</desc>
+  <rect width="1280" height="720" fill="#0b1220"/>
+  <text x="64" y="72" fill="#f8fafc" font-family="Arial, sans-serif" font-size="42" font-weight="700">AI Engineer Handoff Reviews in Daytona</text>
+  <text x="64" y="112" fill="#b8c7dc" font-family="Arial, sans-serif" font-size="22">Two AI engineering tools, one reproducible workspace, one reviewed patch.</text>
+
+  <g transform="translate(64 170)">
+    <rect x="0" y="0" width="250" height="310" rx="18" fill="#14213d" stroke="#38507a" stroke-width="2"/>
+    <circle cx="42" cy="44" r="20" fill="#74c0fc"/>
+    <text x="78" y="52" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">1. Daytona</text>
+    <text x="30" y="105" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">Create isolated</text>
+    <text x="30" y="132" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">workspaces from</text>
+    <text x="30" y="159" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">devcontainer.json.</text>
+    <text x="30" y="218" fill="#98abc4" font-family="Arial, sans-serif" font-size="17">Secrets stay in the</text>
+    <text x="30" y="243" fill="#98abc4" font-family="Arial, sans-serif" font-size="17">workspace environment.</text>
+  </g>
+
+  <g transform="translate(374 170)">
+    <rect x="0" y="0" width="250" height="310" rx="18" fill="#132a21" stroke="#3d7654" stroke-width="2"/>
+    <circle cx="42" cy="44" r="20" fill="#8ce99a"/>
+    <text x="78" y="52" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">2. Omni</text>
+    <text x="30" y="105" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">Reads the repo,</text>
+    <text x="30" y="132" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">maps files, and</text>
+    <text x="30" y="159" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">drafts a patch plan.</text>
+    <text x="30" y="218" fill="#9bc9a8" font-family="Arial, sans-serif" font-size="17">Good for first-pass</text>
+    <text x="30" y="243" fill="#9bc9a8" font-family="Arial, sans-serif" font-size="17">navigation and edits.</text>
+  </g>
+
+  <g transform="translate(684 170)">
+    <rect x="0" y="0" width="250" height="310" rx="18" fill="#241b36" stroke="#62498b" stroke-width="2"/>
+    <circle cx="42" cy="44" r="20" fill="#c084fc"/>
+    <text x="78" y="52" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">3. Claude</text>
+    <text x="30" y="105" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">Reviews the plan,</text>
+    <text x="30" y="132" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">finds blind spots,</text>
+    <text x="30" y="159" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">and writes checks.</text>
+    <text x="30" y="218" fill="#cab6e8" font-family="Arial, sans-serif" font-size="17">Good for critique,</text>
+    <text x="30" y="243" fill="#cab6e8" font-family="Arial, sans-serif" font-size="17">tests, and risk notes.</text>
+  </g>
+
+  <g transform="translate(994 170)">
+    <rect x="0" y="0" width="222" height="310" rx="18" fill="#33240f" stroke="#80622a" stroke-width="2"/>
+    <circle cx="42" cy="44" r="20" fill="#ffd43b"/>
+    <text x="78" y="52" fill="#f8fafc" font-family="Arial, sans-serif" font-size="24" font-weight="700">4. Patch</text>
+    <text x="30" y="105" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">Developer ships</text>
+    <text x="30" y="132" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">one final diff with</text>
+    <text x="30" y="159" fill="#dbe7f5" font-family="Arial, sans-serif" font-size="19">review evidence.</text>
+    <text x="30" y="218" fill="#dbc17c" font-family="Arial, sans-serif" font-size="17">Commands, notes,</text>
+    <text x="30" y="243" fill="#dbc17c" font-family="Arial, sans-serif" font-size="17">and tests stay linked.</text>
+  </g>
+
+  <path d="M 320 325 L 360 325" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 630 325 L 670 325" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 940 325 L 980 325" stroke="#94a3b8" stroke-width="5" stroke-linecap="round"/>
+
+  <rect x="64" y="548" width="1152" height="88" rx="16" fill="#101827" stroke="#30425f" stroke-width="2"/>
+  <text x="96" y="585" fill="#f8fafc" font-family="Arial, sans-serif" font-size="22" font-weight="700">Result</text>
+  <text x="96" y="618" fill="#b8c7dc" font-family="Arial, sans-serif" font-size="20">The handoff creates a review trail: context from Omni, critique from Claude, and a final patch that can be repeated in Daytona.</text>
+</svg>
